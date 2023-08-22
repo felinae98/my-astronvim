@@ -20,6 +20,10 @@ return {
       return opts
     end,
   },
+  {
+    'mrjones2014/smart-splits.nvim',
+    lazy = false,
+  }
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
