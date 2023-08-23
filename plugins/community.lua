@@ -15,5 +15,8 @@ return {
       "nvim-treesitter/nvim-treesitter",
       "theHamsta/nvim-dap-virtual-text",
     },
-  }
+  },
+
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.helm" },
 }
