@@ -22,12 +22,6 @@ return {
     opts = function(_, opts)
       opts.ensure_installed =
         utils.list_insert_unique(opts.ensure_installed, { "gomodifytags", "iferr", "impl", "goimports", "golangci-lint" })
-
-      if not opts.handlers then opts.handlers = {} end
-      opts.handlers.gofmt = function()
-        local null_ls = require "null-ls"
-        null_ls.register(null_ls.builtins.formatting.gofmt)
-      end
     end,
   },
   {
