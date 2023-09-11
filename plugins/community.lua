@@ -58,4 +58,6 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
+  { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.flit-nvim" },
 }
