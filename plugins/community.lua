@@ -57,4 +57,5 @@ return {
 
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.helm" },
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
 }

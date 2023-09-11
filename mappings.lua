@@ -32,6 +32,12 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>fw"] = {
+      function()
+        require('telescope').extensions.live_grep_args.live_grep_args()
+      end,
+      desc = "live grep (args)",
+    }
   },
   t = {
     -- setting a mapping to false will disable it
