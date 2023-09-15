@@ -54,10 +54,11 @@ return {
     build = ':lua require("go.install").update_all_sync()',
   },
 
-
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.flit-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.editing-support.suda-vim" },
 }
