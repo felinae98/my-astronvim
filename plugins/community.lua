@@ -61,4 +61,6 @@ return {
   { import = "astrocommunity.motion.flit-nvim" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.editing-support.suda-vim" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.search.nvim-hlslens" },
 }
