@@ -63,4 +63,5 @@ return {
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.search.nvim-hlslens" },
+  { import = "astrocommunity.search.sad-nvim" },
 }
