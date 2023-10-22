@@ -64,4 +64,5 @@ return {
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.search.nvim-hlslens" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.git.octo-nvim" },
 }
