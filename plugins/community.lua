@@ -65,4 +65,5 @@ return {
   { import = "astrocommunity.search.nvim-hlslens" },
   { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.git.octo-nvim" },
+  { import = "astrocommunity.git.blame-nvim" },
 }
